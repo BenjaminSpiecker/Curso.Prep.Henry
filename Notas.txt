@@ -1,0 +1,54 @@
+1 - Git
+
+Consola/Terminal
+
+Interfaz de Usuario: Medio por el cual el usuario puede comunicarse con algo y comprende todos los puntos de contacto entre el usuario y el equipo.
+
+    CLI: Comand line interface.
+        - Codificada
+        - Estricta
+        Promp: Espacio para escribir comandos.
+        Comando: nombre opcion(es) argumentos.
+
+        Pros:
+            - REquiero pocos recursos
+            - Fácil de automatizar.
+            - Preferido por expertos.
+            - Muchas más opciones de comandos que la GUI.
+        Contra:
+            - No es intuitivo.
+            - Curva de aprendizaje lenta.
+            - Preferido por expoertos.
+            - No es linda visualmente.
+    GUI: Grafical user interface
+        - Metafórica
+        - Exploratoria.
+    NUI: Native user interface.
+        - Directiva
+        - Intuitiva.
+Git: Sistema de contol de Versiones
+    Local:  Se trabaja dentro de la computadora, se guarda versiones de los archivos en una base de datos.
+            Es dificil gestionarlo y el trabajo coperativo.
+    Centralizado:   Repositorio en un servidor en el cual se guardan los archivos.
+                    Si falla el lugar central no se puede trabajar.
+                    No permite que que varias personas trabajen al mismo tiempo el mismo archivo.
+    Distribuido:    Cada persona y el servidor tiene un repositorio del versionado que eventualmente sincroniza con los demás.
+                    Tiene herramientas para elegir los cambios y conflictos.
+
+    - Velocidad, Simple, Soporte para desarrollar de manera no lineal, Completamente distribuido, Puede manejar proyectos grandes.
+
+    init: inicializar repositorio en la carpeta selecionada.
+    status: Como está el reposotorio en el momento.
+    Estados:
+        - Untrack: No estan en el reposotorio, son nuevos.
+        - Unmodified: Ya estaban en el repositorio y no estan modificados.
+        - Modificados: Hice un cambio en un archivo que ya tenia.
+        - Cosas que quiero guardar en mi proximo snapshot.
+    Commit: Despues de modificar los archivos le saco una foto en un momento dado.
+    add: Meter en el proximo commit determinados archivos, los cuales son seleccionados.
+    commit -m: Agregar descripcion al commit.
+    add .: Todos los archivos que están en esta carpeta.
+    Forkear: crear el mismo repositorio en mi computadora en la nube.
+
+    
+
